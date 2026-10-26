@@ -756,3 +756,4 @@ footer {
   .hero-cta { flex-wrap: wrap; }
   .projects-grid { grid-template-columns: 1fr; }
 }
+.contact-links a { overflow-wrap: anywhere; }

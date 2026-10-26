@@ -12,3 +12,8 @@ New entries are appended at the bottom.
 - Project cards built from `js/projects.js` so new projects are a single entry.
 - Contact dialog with LinkedIn and GitHub links (replaces the demo form, which did not send anything).
 - Phone-width layout fixes.
+
+## [1.1.0] - 2026-10-26
+
+### Added
+- Email contact: Gmail and Proton Mail buttons in the contact dialog (open your mail app), plus an EMAIL link in the footer.
