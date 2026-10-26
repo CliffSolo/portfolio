@@ -4,7 +4,7 @@ Personal portfolio of **Matthew Birtwistle**: resume and projects. A living site
 
 | | |
 |---|---|
-| **Version** | 1.1.0 |
+| **Version** | 1.2.0 |
 | **Status** | Active |
 | **Stack** | HTML, CSS, vanilla JavaScript (no build step) |
 | **Theme** | Catppuccin Mocha · Bebas Neue / Outfit / Share Tech Mono |
@@ -35,3 +35,7 @@ Open `js/projects.js`, copy one block, edit it, and add a line to `CHANGELOG.md`
   links: [{ label: "GITHUB", url: "https://github.com/CliffSolo/my-new-app" }]
 }
 ```
+
+## License
+
+[MIT](LICENSE) © 2026 Matthew Birtwistle.

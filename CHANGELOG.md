@@ -17,3 +17,9 @@ New entries are appended at the bottom.
 
 ### Added
 - Email contact: Gmail and Proton Mail buttons in the contact dialog (open your mail app), plus an EMAIL link in the footer.
+
+## [1.2.0] - 2026-10-26
+
+### Added
+- Tactical GPS as the first project card, with GitHub and Download APK buttons.
+- MIT `LICENSE` file and a License section in the README.

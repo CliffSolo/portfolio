@@ -4,6 +4,16 @@
 //   placeholder: true             (dashed "coming soon" card)
 window.PROJECTS = [
   {
+    title: "Tactical GPS",
+    status: "wip",
+    tags: ["FLUTTER", "DART", "ANDROID"],
+    desc: "Dark, military-style Android navigation app: live compass with North-up and heading-up modes, MGRS grid, elevation, street address, waypoints and pins, a map screen, and a destination arrow with bearing and distance.",
+    links: [
+      { label: "GITHUB", url: "https://github.com/CliffSolo/tacticalGPS" },
+      { label: "DOWNLOAD APK", url: "https://github.com/CliffSolo/tacticalGPS/releases/latest" }
+    ]
+  },
+  {
     title: "Blueprint",
     status: "wip",
     tags: ["KOTLIN", "JETPACK COMPOSE", "ANDROID"],
