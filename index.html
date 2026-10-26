@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Matthew Birtwistle | Portfolio</title>
+<meta name="description" content="Matthew Birtwistle: Army veteran, production planner and AI-assisted app developer. Resume and projects.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Outfit:wght@300;400;500;600;700&family=Bebas+Neue&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-logo">MATT<span>_</span>PORTFOLIO</div>
+  <ul class="nav-links">
+    <li><a href="#hero">HOME</a></li>
+    <li><a href="#resume">RESUME</a></li>
+    <li><a href="#projects">PROJECTS</a></li>
+  </ul>
+  <button class="nav-contact-btn" onclick="openContact()">CONTACT</button>
+</nav>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-tag">[ OPERATIONS · DEFENSE · SOFTWARE ]</div>
+  <h1 class="hero-name">MATTHEW<br><span class="accent">BIRTWISTLE</span></h1>
+  <div class="hero-title">PRODUCTION PLANNING &amp; SUPPLY CHAIN · AI-ASSISTED APP DEVELOPMENT</div>
+  <p class="hero-desc">
+    Combat-tested Army leader with over a decade across engineering, operations and logistics. I plan production for complex manufacturing programs by day, and design and ship Android, desktop and web apps built with AI assistance.
+  </p>
+  <div class="hero-badges">
+    <span class="badge">SECRET CLEARANCE</span>
+    <span class="badge">CPIM</span>
+    <span class="badge">FAA PART 107</span>
+    <span class="badge">M.S. UAS · ERAU</span>
+    <span class="badge">B.S. SOFTWARE DEV</span>
+  </div>
+  <div class="hero-cta">
+    <a href="#resume" class="btn-primary">VIEW RESUME</a>
+    <a href="#projects" class="btn-outline">SEE PROJECTS</a>
+    <button class="btn-outline" onclick="openContact()">CONTACT</button>
+  </div>
+  <div class="hero-corner">
+    BOSTON, MA<br>
+    U.S. ARMY VETERAN<br>
+    OPEN TO OPPORTUNITIES
+  </div>
+</section>
+
+<!-- RESUME -->
+<section id="resume">
+  <div class="section-inner">
+    <div class="section-label">// 01 — RESUME</div>
+    <div class="section-title-row">
+      <h2 class="section-title">EXPERIENCE &amp;<br>CREDENTIALS</h2>
+      <a href="#hero" class="back-to-top">↑ BACK TO TOP</a>
+    </div>
+
+    <div class="resume-grid">
+      <!-- LEFT COL -->
+      <div>
+        <div class="resume-col-title">EDUCATION</div>
+
+        <div class="resume-item reveal">
+          <div class="resume-item-title">M.S. Unmanned &amp; Autonomous Systems</div>
+          <div class="resume-item-sub">EMBRY-RIDDLE AERONAUTICAL UNIVERSITY</div>
+          <div class="resume-item-date">GPA 3.7</div>
+          <div class="resume-item-desc">Dean's List every semester; National Honor Society every year.</div>
+        </div>
+
+        <div class="resume-item reveal">
+          <div class="resume-item-title">B.S. Software Development</div>
+          <div class="resume-item-sub">CHAMPLAIN COLLEGE</div>
+          <div class="resume-item-date">GPA 3.8</div>
+        </div>
+
+        <div class="resume-col-title" style="margin-top:2rem;">CERTIFICATIONS</div>
+        <div class="cert-item reveal">
+          <div class="cert-dot"></div>
+          <div class="cert-text">CPIM — APICS / ASCM</div>
+        </div>
+        <div class="cert-item reveal">
+          <div class="cert-dot"></div>
+          <div class="cert-text">FAA Part 107 UAS License</div>
+        </div>
+        <div class="cert-item reveal">
+          <div class="cert-dot" style="background:var(--peach);"></div>
+          <div class="cert-text">Active Secret Clearance (through Jan 2028)</div>
+        </div>
+
+        <div class="resume-col-title" style="margin-top:2rem;">SKILLS</div>
+        <div class="skills-grid">
+          <div class="skill-tag reveal">Production &amp; Capacity Planning</div>
+          <div class="skill-tag reveal">MRP / ERP Systems</div>
+          <div class="skill-tag reveal">Supply Chain Analysis</div>
+          <div class="skill-tag reveal">DoD Program Support</div>
+          <div class="skill-tag reveal">Cross-Functional Coordination</div>
+          <div class="skill-tag reveal">AI-Assisted Development</div>
+          <div class="skill-tag reveal">Kotlin / Jetpack Compose</div>
+          <div class="skill-tag reveal">HTML / CSS / JavaScript</div>
+          <div class="skill-tag reveal">Python</div>
+          <div class="skill-tag reveal">Linux / Git</div>
+        </div>
+      </div>
+
+      <!-- RIGHT COL -->
+      <div>
+        <div class="resume-col-title">EXPERIENCE</div>
+
+        <div class="resume-item reveal">
+          <div class="resume-item-title">Senior Engineer Planner</div>
+          <div class="resume-item-sub">ADVANCED ENERGY</div>
+          <div class="resume-item-date">May 2026 – Present</div>
+          <div class="resume-item-desc">
+            Coordinate production and engineering schedules across cross-functional teams. Build and adjust master production schedules from material availability, capacity and lead times, and keep ERP/MRP data accurate for forecasting and inventory planning.
+          </div>
+        </div>
+
+        <div class="resume-item reveal">
+          <div class="resume-item-title">Delivery Assurance Specialist</div>
+          <div class="resume-item-date">Fall 2025</div>
+          <div class="resume-item-desc">
+            Monitored order fulfillment and delivery timelines, flagging at-risk shipments for proactive resolution.
+          </div>
+        </div>
+
+        <div class="resume-item reveal">
+          <div class="resume-item-title">Production Planner / Analyst</div>
+          <div class="resume-item-sub">TEXTRON WEAPON SYSTEMS</div>
+          <div class="resume-item-date">Aug 2022 – Feb 2025</div>
+          <div class="resume-item-desc">
+            Built production schedules for weapon systems manufacturing, balancing capacity, materials and contract delivery dates. Analyzed KPIs to find bottlenecks, supported MRP, and worked schedule risk assessments for DoD deliverables with program management and engineering.
+          </div>
+        </div>
+
+        <div class="resume-item reveal">
+          <div class="resume-item-title">Logistics / Supply Chain</div>
+          <div class="resume-item-sub">GPC AUTO</div>
+          <div class="resume-item-date">~10 Years</div>
+          <div class="resume-item-desc">
+            Managed inventory, ordering and logistics to keep parts available and service levels steady, and built vendor relationships that streamlined daily operations.
+          </div>
+        </div>
+
+        <div class="resume-item reveal">
+          <div class="resume-item-title">Squad Leader (E-5)</div>
+          <div class="resume-item-sub">2-16 INFANTRY REGIMENT · U.S. ARMY</div>
+          <div class="resume-item-date">Military Service</div>
+          <div class="resume-item-desc">
+            Led and mentored a 12-soldier squad through a 15-month combat deployment to Iraq. Applied HUMINT, counterintelligence and small-unit tactics in support of force protection. Awards: 2× ARCOM, AAM, GWOT Medal, Iraq Campaign Medal.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS (cards are built from js/projects.js) -->
+<section id="projects">
+  <div class="section-inner">
+    <div class="section-label">// 02 — PROJECTS</div>
+    <div class="section-title-row">
+      <h2 class="section-title">WORK &amp;<br>BUILDS</h2>
+      <a href="#hero" class="back-to-top">↑ BACK TO TOP</a>
+    </div>
+    <div class="projects-grid" id="projectsGrid"></div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-copy">© <span id="year">2026</span> MATTHEW BIRTWISTLE · BOSTON, MA</div>
+  <div class="footer-links">
+    <a href="https://github.com/CliffSolo" target="_blank" rel="noopener" class="footer-link">GITHUB</a>
+    <a href="https://www.linkedin.com/in/mattcbirt" target="_blank" rel="noopener" class="footer-link">LINKEDIN</a>
+    <a onclick="openContact()" class="footer-link" style="cursor:pointer;">CONTACT</a>
+  </div>
+</footer>
+
+<!-- CONTACT DIALOG -->
+<div class="dialog-overlay" id="contactOverlay" onclick="handleOverlayClick(event)">
+  <div class="dialog" role="dialog" aria-modal="true" aria-labelledby="contactTitle">
+    <div class="dialog-header">
+      <div>
+        <div class="dialog-title" id="contactTitle">GET IN <span>TOUCH</span></div>
+        <div class="dialog-sub">BEST WAY TO REACH ME</div>
+      </div>
+      <button class="dialog-close" onclick="closeContact()" aria-label="Close">✕</button>
+    </div>
+    <div class="dialog-body">
+      <div class="contact-links">
+        <a href="https://www.linkedin.com/in/mattcbirt" target="_blank" rel="noopener" class="btn-primary">MESSAGE ON LINKEDIN</a>
+        <a href="https://github.com/CliffSolo" target="_blank" rel="noopener" class="btn-outline">GITHUB · CLIFFSOLO</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="js/projects.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
